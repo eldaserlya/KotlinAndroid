@@ -1,0 +1,6 @@
+com.example.kotlinandroid.test.app-androidTest-0 C:\PemrogrammanMobile\KotlinAndroid\KotlinAndroid\app\build\generated\res\resValues\androidTest\debug
+com.example.kotlinandroid.test.app-mergeDebugAndroidTestResources-1 C:\PemrogrammanMobile\KotlinAndroid\KotlinAndroid\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.kotlinandroid.test.app-mergeDebugAndroidTestResources-2 C:\PemrogrammanMobile\KotlinAndroid\KotlinAndroid\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.kotlinandroid.test.app-merged_res-3 C:\PemrogrammanMobile\KotlinAndroid\KotlinAndroid\app\build\intermediates\merged_res\debugAndroidTest
+com.example.kotlinandroid.test.app-annotation-experimental-1.3.0-4 C:\Users\DYNABOOK\.gradle\caches\transforms-3\53e201e1c519ef1807304d065a17ebc1\transformed\annotation-experimental-1.3.0\res
+com.example.kotlinandroid.test.app-core-1.5.0-5 C:\Users\DYNABOOK\.gradle\caches\transforms-3\a398584d6b5cd441ab396e8538531035\transformed\core-1.5.0\res
