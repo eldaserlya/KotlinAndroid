@@ -1,8 +1,8 @@
 package com.example.kotlinandroid
 
-fun main(){
-    val a = double(x:2)
+fun main() {
+    val a = double(4)
     println(a)
 }
 
-fun double(x:int) : int= * 2
+fun double(x: Int): Int = x * 4
