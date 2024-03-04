@@ -50,7 +50,7 @@ fun feedTheFish() {
 
     swim()   // uses default speed
     swim("slow")   // positional argument
-    swim(speed="turtle-like")   // named parameter
+    swim(speed="seperti penyu")   // named parameter
 
     println("Change water: ${shouldChangeWater(day)}")
 }
@@ -74,7 +74,7 @@ fun isDirty(dirty: Int) = dirty > 30
 fun isSunday(day: String) = day == "Sunday"
 
 fun getDirtySensorReading(): Int {
-    return 20
+    return 25
 
     val decorations = listOf ("rock", "pagoda", "plastic plant", "alligator", "flowerpot")
     fun main() {

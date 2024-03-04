@@ -1,7 +1,7 @@
 package com.example.kotlinandroid
 
 fun main() {
-    val input = "ini hari Minggu yang cerah"
+    val input = "ini hari Minggu yang cerah dan berawan"
 
 
     val enc1: (String) -> String = { input -> input.toUpperCase() }
