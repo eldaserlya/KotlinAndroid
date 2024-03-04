@@ -3,9 +3,9 @@ package com.example.kotlinandroid
 import java.util.Random
 
 fun main(args: Array<String>) {
-    println("HELLO, KAWAN!")
+    println("HELLO, DUNIA!")
 
-    println("Hello, ${args[0]}")
+    println("Aku, ${args[0]}")
 
     val isUnit = println("Ini adalah sebuah ungkapan terbahagia")
     println(isUnit)
