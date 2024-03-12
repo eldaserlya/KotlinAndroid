@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc8179f2-ce58-4933-a498-e6f17f7d53a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/kotlinandroid/Constructor.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/kotlinandroid/House.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/kotlinandroid/Person.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/example/myapp/Aquarium.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/example/myapp/ExampleMyApp.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/example/myapp/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/example/myapp/AquariumFish2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/example/myapp/decor/Decoration.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/example/myapp/decor/Decoration1.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.bin" afterDir="false" />
@@ -79,6 +76,9 @@
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugUnitTestKotlin/cacheable/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugUnitTestKotlin/cacheable/last-build.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugUnitTestKotlin/local-state/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugUnitTestKotlin/local-state/build-history.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/META-INF/app_debug.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/META-INF/app_debug.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/example/myapp/Aquarium.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/example/myapp/Aquarium.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/example/myapp/ExampleMyApp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/example/myapp/AquariumFish.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/example/myapp/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/example/myapp/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,19 +111,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
-    "last_directory_selection": "C:/PemrogrammanMobile/KotlinAndroid/KotlinAndroid/app/src/main/java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/PemrogrammanMobile/KotlinAndroid/KotlinAndroid/app/src/main/java&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Kotlin.MainKt">
+}</component>
+  <component name="RunManager" selected="Kotlin.Decoration1Kt">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="KotlinAndroid.app.main" />
       <option name="DEPLOY" value="true" />
@@ -191,22 +191,22 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AquariumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.kotlinandroid.AquariumKt" />
+    <configuration name="AquariumKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.myapp.AquariumKt" />
       <module name="KotlinAndroid.app.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConstructorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.kotlinandroid.ConstructorKt" />
+    <configuration name="Decoration1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.myapp.decor.Decoration1Kt" />
       <module name="KotlinAndroid.app.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HouseKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.kotlinandroid.HouseKt" />
+    <configuration name="DecorationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.myapp.decor.DecorationKt" />
       <module name="KotlinAndroid.app.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -228,11 +228,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Decoration1Kt" />
+        <item itemvalue="Kotlin.DecorationKt" />
         <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Kotlin.AquariumKt (1)" />
         <item itemvalue="Kotlin.PersonKt" />
-        <item itemvalue="Kotlin.HouseKt" />
-        <item itemvalue="Kotlin.ConstructorKt" />
-        <item itemvalue="Kotlin.AquariumKt" />
       </list>
     </recent_temporary>
   </component>
